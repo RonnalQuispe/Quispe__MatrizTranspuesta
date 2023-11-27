@@ -18,6 +18,15 @@ int main()
             matriz_original[i][j] = rand() % 101;//asignar numeros enteros entre 0 y 100
         }
     }
+     // Imprimir matriz original
+    printf("Matriz original:\n");
+    for(int i = 0; i < filas; i++) {
+        for(int j = 0; j < columnas; j++) {
+            printf("%d ", matriz_original[i][j]);
+        }
+        printf("\n");
+    }
+    
 
     return 0;
 }
