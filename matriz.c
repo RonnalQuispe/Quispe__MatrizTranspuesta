@@ -25,6 +25,13 @@ int main()
         }
         printf("\n");
     }
+    // Obtener matriz transpuesta
+    int matriz_transpuesta[columna][fila];
+    for(int i = 0; i < columna; i++) {
+        for(int j = 0; j < fila; j++) {
+            matriz_transpuesta[i][j] = matriz_original[j][i];
+        }
+    }
     
     
     
