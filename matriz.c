@@ -10,9 +10,9 @@ int main()
     scanf("%d", &columna);
     // Crear matriz original con números aleatorios entre 0 y 100
     int matriz_original[fila][columna];
-    for (int i = 0; i < filas; i++)
+    for (int i = 0; i < fila; i++)
     {
-        for (int j = 0; j < columnas; j++)
+        for (int j = 0; j < columna; j++)
         {
             matriz_original[i][j] = rand() % 101;//asignar numeros enteros entre 0 y 100
         }
@@ -42,16 +42,7 @@ int main()
         printf("\n");
     }
     
-    // Imprimir matriz transpuesta
-    printf("Matriz transpuesta:\n");
-    for(int i = 0; i < columna; i++) {
-        for(int j = 0; j < fila; j++) {
-            printf("%d ", matriz_transpuesta[i][j]);
-        }
-        printf("\n");
-    }
-    
-    
+  
     
     return 0;
 }
